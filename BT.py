@@ -103,8 +103,6 @@
 # 
 # =============================================================================
 
-
-
 # =============================================================================
 # def in_bang_cuu_chuong(n, m):
 #     for i in range(n, m + 1):
@@ -117,34 +115,12 @@
 # 
 # in_bang_cuu_chuong(n, m)
 # =============================================================================
-# danh_sach_thuc_uong = ['Bạc Xỉu Đá', 'Freeze Trà Xanh',
-# 'Trà Thạch Vải', 'Trà Thanh Đào',
-# 'Cappuccino', 'Cà Phê Sữa Đá']
 
 
 
 
-def tim_kiem_thuc_uong(danh_sach, tu_khoa):
-    ket_qua = []
-    for thuc_uong in danh_sach:
-        if tu_khoa.lower() in thuc_uong.lower():
-            ket_qua.append(thuc_uong)
-    
-    if ket_qua:
-        print(f"Kết quả tìm kiếm cho từ khóa '{tu_khoa}':")
-        for item in ket_qua:
-            print(item)
-    else:
-        print(f"Không tìm thấy kết quả cho từ khóa '{tu_khoa}'.")
 
-# Danh sách thức uống
-danh_sach_thuc_uong = ['Bạc Xỉu Đá', 'Freeze Trà Xanh', 'Trà Thạch Vải', 'Trà Thanh Đào', 'Cappuccino', 'Cà Phê Sữa Đá']
 
-# Nhập từ khóa từ người dùng
-tu_khoa = input("Nhập từ khóa tìm kiếm: ")
-
-# Tìm kiếm và hiển thị kết quả
-tim_kiem_thuc_uong(danh_sach_thuc_uong, tu_khoa)
 
 
 
